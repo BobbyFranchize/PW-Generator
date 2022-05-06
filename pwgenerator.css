@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Architects+Daughter&family=Arvo:ital@1&family=Bangers&family=Bebas+Neue&family=Caveat&family=Cinzel:wght@600&family=Graduate&family=Karla:wght@300&family=League+Gothic&family=Lobster&family=Maven+Pro:wght@600&family=Orbitron&family=Permanent+Marker&family=Playball&family=Righteous&family=Shizuru&family=Source+Code+Pro:wght@300&display=swap');
+
+
+
+body {
+margin: auto 0;
+
+}
+
+.outter-box{
+  display: flex;
+  background-color: #4a5563;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 25px;
+
+}
+
+.inner-box {
+  background-color: #1C1C1C;
+  border-radius: 10px;
+  width: 495px;
+  height: 495px;
+
+}
+
+.top-header{
+  color: #ffffff;
+  padding-left: 22px;
+  font-family: 'Karla', sans-serif;
+  font-size: 50px;
+}
+
+span {
+  color: #7dd3fc;
+}
+
+.sub-heading {
+    color: #d1d5db;
+    padding-left: 22px;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+
+}
+
+#generate-passwords-btn {
+  background-color: #7dd3fc;
+  font-family: 'Karla', sans-serif;
+  font-weight: bolder;
+  margin-left: 22px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  border-style: none;
+  border-radius: 10px;
+  padding: 7px;
+  width: auto;
+
+}
+
+#chacters-amount {
+  background-color: #4a5563;
+  color: #7dd3fc;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  font-weight: bolder;
+  margin-left: 22px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  border-style: none;
+  border-radius: 10px;
+
+}
+
+.passwords-container {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  padding: 12px;
+  padding-top: 25px;
+
+}
+
+#password1 {
+  grid-column: 1;
+}
+
+#password2 {
+  grid-column: 2;
+}
+
+#password3 {
+  grid-column: 1;
+}
+
+#password4 {
+  grid-column: 2;
+}
+
+.password-output {
+  background-color: #4a5563;
+  height: 32px;
+  color: #7dd3fc;
+  font-family: 'Karla', sans-serif;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 10px;
+  padding: 7px;
+  margin-right: 5px;
+  text-align: center;
+}

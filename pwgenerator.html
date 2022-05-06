@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="pwgenerator.css">
+    <title>Scrimba Random Password Generator</title>
+  </head>
+  <body>
+    <div class="outter-box">
+      <div class="inner-box">
+
+        <h1 class="top-header">Generate a<br> <span>random password</span></h1>
+        <p class="sub-heading">Never use an insecure password again</p>
+
+        <button id="generate-passwords-btn" type="button" name="generate-passwords-button">Generate Passwords!</button><br>
+        <label for="input-el" class="sub-heading">Character Amount:<input id="chacters-amount"type="number" min=8 max = 16 name="number-of-characters" value="16"></label>
+        <hr style="width:75%;">
+
+        <div class="passwords-container">
+            <button type="button" class="password-output" id="password1" name="password1">Generate a Password!</button>
+            <button type="button" class="password-output" id="password2" name="password2">Generate a Password!</button>
+            <button type="button" class="password-output" id="password3" name="password3">Generate a Password!</button>
+            <button type="button" class="password-output" id="password4" name="password4">Generate a Password!</button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <script src="pwgenerator.js"></script>
+  </body>
+</html>
